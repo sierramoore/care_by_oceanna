@@ -19,21 +19,39 @@ html {
   @include respond(big-desktop) {
     font-size: 75%;
   }
+
+  background: url(../../assets/img/oce_bg.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
-  background-image: linear-gradient(120deg, $dark-blue, rgba($dark-blue, 0.8));
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-width: 100vw;
-  min-height: 100vh;
+  //background-image: linear-gradient(120deg, $dark-blue, rgba($dark-blue, 0.8));
+  //background-image: url("../../assets/img/oce_bg.svg");
+  //background-repeat: no-repeat;
+  //background-size: cover;
+  //min-width: 100vw;
+  //height: auto;
+
+  //position: fixed;
+  //top: 0;
+  //left: 0;
+  //min-width: 100%;
+  //min-height: 100%;
+
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
 }
 
 .header {
-  color: $lavender;
+  color: $dark;
   text-align: center;
-  margin: 3rem auto;
+  margin: 33% auto 5rem auto;
   letter-spacing: 2px;
+
+  &__secondary {
+    margin: 0 auto;
+  }
 }
