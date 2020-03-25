@@ -1,0 +1,41 @@
+title: Oceanna Moore Care Giving
+email: oceannamoore@gmail.com
+image: ""
+description: "Oceanna Moore Care Giver"
+keywords: "In Home Care, Companionship, Care Giver, Certified nursing assistant, healthy cooking specialty"
+#baseurl: ""
+#url: ""
+repository: https://github.com/animated_site
+github_username:  sierramoore
+#google_analytics:
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude: [".idea/", "jekyll-cache"]
+
+# Build settings
+#+ markdown: CommonMark
+#+ commonmark:
+#+   options: ["SMART", "FOOTNOTES"]
+#+   extensions: ["strikethrough", "autolink", "table"]
+
+
+plugins:
+  - jekyll-feed
+#  - jekyll-sitemap
+#  - jekyll-autoprefixer
+#  - jekyll-paginate
+#  - jekyll-seo-tag
+#  - jekyll-commonmark
+#  - jekyll-include-cache
+
+#autoprefixer:
+#  browsers:
+#  - last 6 versions
+
+
+social:
+  name: Oceanna Moore
+  links:
