@@ -1,9 +1,12 @@
 .canvas {
-  width: 60rem;
+  width: 56rem;
   height: auto;
   display: block;
-  margin: 5rem auto;
-  //@include absCenter;
+  margin: 5% auto;
+
+  @include respond(ipad) {
+    width: 30rem;
+  }
 }
 
 #girl {
