@@ -1,0 +1,40 @@
+.canvas {
+  width: 56rem;
+  height: auto;
+  display: block;
+  margin: 5% auto;
+
+  @include respond(ipad) {
+    width: 30rem;
+  }
+}
+
+#girl {
+  animation: scale 1s infinite;
+}
+
+#paint_brush{
+  animation: moveRight 1s infinite;
+}
+
+#boots{
+
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(20rem);
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(2);
+  }
+}
